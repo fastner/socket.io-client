@@ -2913,10 +2913,10 @@ var swfobject=function(){var D="undefined",r="object",S="Shockwave Flash",W="Sho
   WebSocket.__initialize = function() {
     if (WebSocket.__flash) return;
     
-    if (WebSocket.__swfLocation) {
+/*    if (WebSocket.__swfLocation) {
       // For backword compatibility.
       window.WEB_SOCKET_SWF_LOCATION = WebSocket.__swfLocation;
-    }
+    }*/
     if (!window.WEB_SOCKET_SWF_LOCATION) {
       console.error("[WebSocket] set WEB_SOCKET_SWF_LOCATION to location of WebSocketMain.swf");
       return;
